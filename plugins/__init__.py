@@ -29,28 +29,16 @@ HELP = """
 **Basic Commands**
 
 /start : Check Bot Alive.
-
-**Commands (Only Bot Owner)**
-
-/broadcast: Replay Any Message or Media.
-/stats: User Status.
-/ban:  Click ban more info.
-/unban: Click unban more info.
-/banned: Banned User Details.
-/total: How Many Files Added In Database.
-/logger:  Get Logs.
-/delete: Delete File From Database.
-
 """
 
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [auto-filter-bot-v3](https://github.com/zautekm/auto-filter-bot-v3).
+**➥ 🤖 Name: [Sensiari](http://t.me/ZoMovieBot).
     
-▷👨‍💻 Creator : [Zaute Km](https://t.me/ZauteKm)
+➥ 👨‍💻 Creator: [Zaute Km](https://t.me/ZauteKm)
 
-▷🌏 Language : Python3
+➥ 🌏 Languag: Python3
 
-▷♻️ Library : Pyrogram Asyncio 1.13.0**
+➥ ♻️ Library: Pyrogram Asyncio 1.13.0**
 """
