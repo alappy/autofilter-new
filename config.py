@@ -51,13 +51,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm [auto-filter-bot-v3](https://github.com/zautekm/auto-filter-bot-v3)**
+**Chibai le, Kei hi [Mizo Version Movie Bot](https://t.me/joinchat/prE6ALN6x2hkY2E1) ka ni!**
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+1. Inline mode hmangin i Movie duh i search thei a.
+2. Chuan he [Group](https://t.me/joinchat/prE6ALN6x2hkY2E1) join in, i Movie duh thupui chauh lo thawn la, ka pe nghâl thei bawk che!
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 
-FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "")
+FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<code>{file_name}</code>\n\n<b>Size:</b> {file_size}\n\n{file_caption}\n\n<b>[© Sᴇʀɪᴇs & Mᴏᴠɪᴇ Oғғɪᴄɪᴀʟ ™](https://t.me/joinchat/prE6ALN6x2hkY2E1)")
 OMDB_API_KEY = environ.get("OMDB_API_KEY", "http://www.omdbapi.com/?i=tt3896198&apikey=4f08a979")
 if FILE_CAPTION.strip() == "":
     CUSTOM_FILE_CAPTION=None
