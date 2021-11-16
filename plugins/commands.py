@@ -60,7 +60,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Please Join My Updates Channel to use this Bot!**",
+                    text="**Khawngaihin ka channel Subscribe phawt la, chuan min hmang thei ang!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -118,7 +118,7 @@ async def start(bot, message):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Khawngaihin ka channel Subscribe phawt la, chuan min hmang thei ang!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -140,7 +140,7 @@ async def start(bot, message):
                 InlineKeyboardButton("help", callback_data="help"),
                 InlineKeyboardButton("about", callback_data="about")
                 ],[
-                InlineKeyboardButton("more bots @josprojects 🤖", url="https://t.me/JosProjects")
+                InlineKeyboardButton("more bots @josprojects", url="https://t.me/JosProjects")
                 ]]
             )
         )
