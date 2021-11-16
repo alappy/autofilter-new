@@ -99,11 +99,11 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('More Bots', url='https://t.me/BotzListBot')
+                        InlineKeyboardButton('search', switch_inline_query_current_chat=''),
+                        InlineKeyboardButton('channel', url='https://t.me/ZoSeriesStudio')
                     ],
                     [
-                        InlineKeyboardButton('👨‍💻 Developer @ZauteKm 📢', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('developer @zautekm', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -134,13 +134,13 @@ async def start(bot, message):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🔎 Search Here", switch_inline_query_current_chat=''),
-                InlineKeyboardButton("Go Inline 🗣️", switch_inline_query='')
+                InlineKeyboardButton("search", switch_inline_query_current_chat=''),
+                InlineKeyboardButton("go inline", switch_inline_query='')
                 ],[
-                InlineKeyboardButton("🖲️ Commands", callback_data="help"),
-                InlineKeyboardButton("About Bot 🧑‍🔧", callback_data="about")
+                InlineKeyboardButton("help", callback_data="help"),
+                InlineKeyboardButton("about", callback_data="about")
                 ],[
-                InlineKeyboardButton("🤖 More Bots @BotzListBot 🤖", url="https://t.me/BotzListBot")
+                InlineKeyboardButton("more bots @josprojects 🤖", url="https://t.me/JosProjects")
                 ]]
             )
         )
@@ -353,8 +353,8 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('👨‍💻 Developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('Channel 📢', url=f'https://t.me/TGBotsProJect')
+            InlineKeyboardButton('developer', url=f'{DEV_CHANNEL}'),
+            InlineKeyboardButton('channel', url=f'https://t.me/JosProjects')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
