@@ -67,7 +67,7 @@ Once a poster is fetched from OMDB , poster is saved to DB to reduce duplicate r
 <details><summary><b>Deploy to Heroku</b></summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ZauteKm/auto-filter-bot-v3">
+<a href="https://heroku.com/deploy?template=https://github.com/dqanshi/autofilter-new">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -78,7 +78,7 @@ Once a poster is fetched from OMDB , poster is saved to DB to reduce duplicate r
 <br/>
 
 <p align="left">
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FZauteKm%2Fauto-filter-bot-v3"
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdqanshi%2Fautofilter-new"
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
