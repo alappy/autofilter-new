@@ -78,7 +78,7 @@ Once a poster is fetched from OMDB , poster is saved to DB to reduce duplicate r
 <br/>
 
 <p align="left">
-<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdqanshi%2Fautofilter-new"
+<a href="[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fdqanshi%2Fautofilter-new&envs=BOT_TOKEN%2CAPI_HASH%2CAPI_ID%2CADMINS%2CADMIN_ID%2CDATABASE_NAME%2CDATABASE_URI%2CBROADCAST%2CBROADCAST_CHANNEL%2CCUSTOM_FILE_CAPTION%2CAUTH_GROUPS%2CCOLLECTION_NAME%2CUSE_CAPTION_FILTER%2CAUTH_USERS&optionalEnvs=CUSTOM_FILE_CAPTION%2CAUTH_GROUPS%2CCOLLECTION_NAME%2CUSE_CAPTION_FILTER%2CAUTH_USERS&BROADCASTDefault=True+)"
 ">
      <img height="30px" src="https://railway.app/button.svg">
   </a>
