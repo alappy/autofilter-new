@@ -100,10 +100,10 @@ async def start(bot, message):
                 buttons = [
                     [
                         InlineKeyboardButton('search', switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('channel', url='https://t.me/ZoSeriesStudio')
+                        InlineKeyboardButton('channel', url='https://t.me/teamfoxbotz')
                     ],
                     [
-                        InlineKeyboardButton('developer @am_dq_fan', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('developer', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
