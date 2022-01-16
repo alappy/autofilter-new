@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -U -r requirements.txt
-RUN mkdir /Sensiari
-WORKDIR /Sensiari
+RUN mkdir /autofilter-new
+WORKDIR /autofilter-new
 COPY start.sh /start.sh
 
 # Running auto-filter-bot-v3
