@@ -46,9 +46,9 @@ HELP = """
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [auto-filter-bot-v3](https://github.com/zautekm/auto-filter-bot-v3).
+**▷🤖 Name: [snow white](https://t.me/am_dq_fan).
     
-▷👨‍💻 Creator : [Zaute Km](https://t.me/ZauteKm)
+▷👨‍💻 Creator : [Zaute Km](https://t.me/theroyalfox)
 
 ▷🌏 Language : Python3
 
