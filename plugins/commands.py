@@ -103,7 +103,7 @@ async def start(bot, message):
                         InlineKeyboardButton('channel', url='https://t.me/ZoSeriesStudio')
                     ],
                     [
-                        InlineKeyboardButton('developer @zautekm', url=f'{DEV_CHANNEL}')
+                        InlineKeyboardButton('developer @am_dq_fan', url=f'{DEV_CHANNEL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -139,8 +139,6 @@ async def start(bot, message):
                 ],[
                 InlineKeyboardButton("help", callback_data="help"),
                 InlineKeyboardButton("about", callback_data="about")
-                ],[
-                InlineKeyboardButton("more bots @josprojects 🤖", url="https://t.me/JosProjects")
                 ]]
             )
         )
@@ -354,7 +352,7 @@ async def bot_info(bot, message):
         [
             
             InlineKeyboardButton('developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('channel', url=f'https://t.me/JosProjects')
+            InlineKeyboardButton('channel', url=f'https://t.me/teamfoxbotz')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
