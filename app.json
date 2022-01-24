@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/dqanshi/autofilter-new",
-    "repository": "https://github.com/zautekm/auto-filter-bot-v3",
+    "repository": "https://github.com/alappy/autofilter-new",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
