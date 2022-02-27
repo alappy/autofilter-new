@@ -42,7 +42,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('FORCES_SUB')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else auth_channel
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
-DEV_CHANNEL = "https://t.me/theroyalfox"
+DEV_CHANNEL = "https://t.me/Kerala_Chatting"
 
 # MongoDB information
 DATABASE_URI = environ['DATABASE_URI']
@@ -51,7 +51,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm [snow white](https://t.me/am_dq_fan)**
+**Hi, I'm [alappyyy](https://t.me/alappyyy)**
 
 Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
 """
