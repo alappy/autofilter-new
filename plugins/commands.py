@@ -352,7 +352,7 @@ async def bot_info(bot, message):
         [
             
             InlineKeyboardButton('developer', url=f'{DEV_CHANNEL}'),
-            InlineKeyboardButton('channel', url=f'https://t.me/teamfoxbotz')
+            InlineKeyboardButton('channel', url=f'https://t.me/Kerala_Chatting')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
