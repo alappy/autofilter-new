@@ -46,9 +46,9 @@ HELP = """
 ABOUT = """
 **About Bot 🤖**
 
-**▷🤖 Name: [snow white](https://t.me/am_dq_fan).
+**▷🤖 Name: [alappyyy](https://t.me/alappyyy).
     
-▷👨‍💻 Creator : [Zaute Km](https://t.me/theroyalfox)
+▷👨‍💻 Creator : [VENOM](https://t.me/VENOM_OF_TELEGRAM)
 
 ▷🌏 Language : Python3
 
