@@ -119,9 +119,9 @@ Check [`sample_config.py`](sample_config.py) before editing [`config.py`](config
 * If you don't want to create a channel or group, use your chat ID / username as the channel ID. When you send a file to a bot, it will be saved in the database.
 
 ## Support
-Contact Me On [Telegram](https://t.me/zautebot)
+Contact Me On [Telegram](https://t.me/NANBAN_AN_NANBII)
 
-[Update Channel](https://t.me/tgbotsproject)
+[Update Channel](https://t.me/Kerala_Chatting)
 
 ## Thanks to 
 * [Pyrogram](https://github.com/pyrogram/pyrogram)
